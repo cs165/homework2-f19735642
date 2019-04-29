@@ -7,7 +7,11 @@
   homework because your style edits are all in one place.
 
 **/
+section .choice-grid{
+  display: none;
+  /*flex-wrap: wrap;*/
 
+}
 article {
   margin: auto;
   width: 700px;

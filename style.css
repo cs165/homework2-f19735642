@@ -1,1 +1,55 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+@media(max-width:700px) {
+  article{
+    width: 95%;
+  }
+  header div{
+    display: none;
+  }
+}
+@media(max-width:500px) {
+  .choice-grid div{
+    width: 49%;
+  }
+}
+.choice-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choice-grid div{
+  width: 32.5%;
+  background-color:  #f4f4f4;
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: 1px;
+  padding:10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+ }
+.choice-grid div img{
+  width: 100%;
+}
+#result{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#result_c{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+#reset{
+  display: flex;
+  height: 50px;
+  background-color: #cecece;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset:hover{
+  background-color: #e0e0e0;
+}
+.hidden{
+  display: none;
+}
